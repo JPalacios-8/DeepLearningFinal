@@ -1,4 +1,21 @@
-# DeepLearningFinal
+Final Deep Learning project focused on résumé summarization using BART.
+
+Execution steps:
+
+Text extraction from PDF files using PyMuPDF
+Preprocessing and dataset construction with Pandas
+Fine-tuning of facebook/bart-large-cnn using PyTorch
+Custom training with attention masks and labels
+Generation of new summaries and model evaluation using ROUGE
+
+Technologies used:
+Python, Hugging Face Transformers, PyTorch, Pandas, Google Colab
+
+Final .ipynb file: 
+https://colab.research.google.com/drive/15qozrpzsvtV48r4d_awHZIlgdSX0a0uS?usp=sharing
+
+--------------------------------------------------------------------------------------------------
+
 Proyecto final de Deep Learning. Resumen de curriculums con BART
 Pasos de ejecucion:
   - Extracción de texto desde archivos PDF usando PyMuPDF
